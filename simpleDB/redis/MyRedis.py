@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 from redis import StrictRedis
-from func import decode_list, decode_list_tuple
+from .func import decode_list, decode_list_tuple
 
 
 class Redis(object):

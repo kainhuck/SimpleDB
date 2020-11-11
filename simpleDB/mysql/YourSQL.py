@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 import pymysql
-from sql_func import *
+from .sql_func import *
 
 
 class Mysql(object):
